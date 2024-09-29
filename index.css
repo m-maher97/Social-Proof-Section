@@ -1,0 +1,187 @@
+body {
+    background-color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .section {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .details {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details h1 {
+    font-size: 2.5rem;
+    color: #511F50;
+    margin-bottom: 15px;
+  }
+  
+  .details p {
+    font-size: 1rem;
+    color: #511F50;
+    font-weight: 200;
+  }
+  
+  .rating {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .rating div {
+    text-align: center;
+    background-color: #F7F2F8;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #511F50;
+  }
+  
+  .rating img {
+    width: 20px;
+    height: auto;
+  }
+  
+  .rating h2 {
+    font-size: 1rem;
+    color: #252b46;
+    margin: 10px;
+  }
+  
+  .reviews {
+    margin-left: -150px;
+  }
+  
+  .guru {
+    margin-left: -75px;
+  }
+  
+  .row2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #511F50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 260px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .card-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .title h3 {
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  .title h4 {
+    font-size: 0.9rem;
+    color: #A85B93;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #e1e2e7;
+    line-height: 1.5;
+  }
+  
+  .card1 {
+    margin-top: 0;
+  }
+  
+  .card2 {
+    margin-top: 20px;
+  }
+  
+  .card3 {
+    margin-top: 40px;
+  }
+  
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .row1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .details h1 {
+      font-size: 2rem;
+    }
+  
+    .details p {
+      font-size: 1rem;
+    }
+  
+    .rating {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .rating div {
+      margin-left: 0;
+    }
+  
+    .row2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      max-width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
